@@ -164,7 +164,7 @@ examples = [
 
 **其实如果在这个阶段人工介入，把不顺畅的句子改通畅，这样效果可以极大提升，但是个人精力有限（我真不做赛博黑奴）**
 
-到了这个阶段我们其实已经可以对翻译模型进行训练了，要看实际代码可以参考[01-translate_dataset.ipynb]()。
+到了这个阶段我们其实已经可以对翻译模型进行训练了，要看实际代码可以参考[01-translate_dataset.ipynb](https://github.com/869413421/dialect_model/blob/main/01-translate_dataset.ipynb)。
 
 其实到了这一步，整个实现思路最重要的部分已经阐述出来了，主要是以最少的人力，去生成最大的可用数据，颇有一丝四两拨千斤的感觉。
 
@@ -176,7 +176,7 @@ examples = [
 
 模型我们选择了阿里云最新开源的[Qwen2.5-7B-Instruct]( https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)
 
-这部分的代码可以参考[03.qwen2.5_lora_tuning.ipynb]()
+这部分的代码可以参考[03.qwen2.5_lora_tuning.ipynb](https://github.com/869413421/dialect_model/blob/main/03.qwen2.5_lora_tuning.ipynb)
 
 这里使用到的技术点有**半精度训练**，**LORA高效参数微调**，如果你不懂这些你可以理解为节省GPU内存和存储资源而出现的一些技术。涉及的代码也不多，自己自行去了解下背后的原理。
 

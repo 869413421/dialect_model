@@ -1,14 +1,8 @@
 datasets~=3.0.1
 evaluate~=0.4.3
-scikit-learn~=1.5.2
-faiss-cpu~=1.9.0
-pandas
-faiss
-sentence_transformers
 torch~=2.4.1
 transformers~=4.44.2
 nltk~=3.9.1
 numpy~=1.26.4
-FlagEmbedding
-modelscope
 peft
+streamlit
