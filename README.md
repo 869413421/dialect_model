@@ -1,11 +1,27 @@
-# “赛博信宜佬”？如何训练一个出一个方言对话大模型
+# “赛博信宜佬”？如何使用transformers实现一个方言对话大模型
 
 ## 简介
-要说现在科技圈最火的不可置否地应该是AI，而大模型作为AI时代最典型的作品，已经开始逐步渗透到我们日常生活和工作中。文本，视图，音频等领域近两年百花齐放，各种大厂开源的大模型层出不穷高速迭代。得益于开源和技术发展，AI已经不再高不可攀，即便是我们这种普通的互联网用户也能轻松地触摸打造属于自己的大模型。最近使用transformers从零样本训练出了一个家乡方言的对话模型，本文就已完成的模型作一次实现思路讲解。
+要说现在科技圈最火的不可置否地应该是AI，而大模型作为AI时代最典型的作品，已经开始逐步渗透到我们日常生活和工作中。文本，视图，音频等领域近两年百花齐放，各种大厂开源的大模型层出不穷高速迭代。得益于开源和技术发展，AI已经不再高不可攀，即便是我们这种普通的互联网用户也能轻松地触摸打造属于自己的大模型。最近使用**transformers**从零样本训练出了一个家乡方言的对话模型，本文就已完成的模型作一次实现思路讲解。
 
 ### 效果
 
-xxxxxx
+#### 音乐相关对话
+
+![](https://raw.githubusercontent.com/869413421/dialect_model/refs/heads/main/image/example5.png)
+
+#### 历史相关对话
+
+![](https://raw.githubusercontent.com/869413421/dialect_model/refs/heads/main/image/example2.png)
+
+#### 介绍城市
+
+![](https://raw.githubusercontent.com/869413421/dialect_model/refs/heads/main/image/example3.png)
+
+#### 经典的9.11和9.9
+
+![](https://raw.githubusercontent.com/869413421/dialect_model/refs/heads/main/image/example4.png)
+
+
 
 ### 应用场景？
 
